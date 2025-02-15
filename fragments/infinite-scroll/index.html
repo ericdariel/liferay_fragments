@@ -1,0 +1,18 @@
+<div id="card-container">
+	
+	[#assign msg = paramUtil.getString(request, "msg")]
+	${languageUtil.get(locale, msg)}
+</div>
+<div id="loader">
+	[#list 0..configuration.numberOfCards-1 as i]
+    <div class="${configuration.divToAddOnCard}">
+       <div class="skeleton-card"></div>
+		</div>	
+  [/#list]
+</div>
+<div class="cards-footer">
+  <span>Showing 
+    <span id="card-count">0</span> of 
+    <span id="card-total">0</span> cards      
+  </span>
+</div>
