@@ -1,0 +1,35 @@
+{
+	"fieldSets": [
+		{
+					"fields": [
+				 {
+					 "dataType": "string",
+					 "defaultValue": "100",
+					 "label": "number-of-snow-flakes",
+					 "name": "numberOfSnowFlakes",
+					 "type": "text"
+				 },
+				 {
+					 "dataType": "string",
+					 "defaultValue": "5",
+					 "label": "max-snow-flake-size",
+					 "name": "maxSnowFlakeSize",
+					 "type": "text"
+				 },
+				 {
+					 "dataType": "string",
+					 "defaultValue": "2",
+					 "label": "max-snow-flake-speed",
+					 "name": "maxSnowFlakeSpeed",
+					 "type": "text"
+				 },
+				 {
+					 "defaultValue": "#DDDDDD",
+					 "label": "snow-flake-color",
+					 "name": "snowFlakeColor",
+					 "type": "colorPicker"
+				 }
+			]
+		}
+	]
+}
