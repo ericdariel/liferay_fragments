@@ -6,4 +6,4 @@
 
 * Snow Flakes :
 
-  See my post here :  https://liferay.dev/fr/blogs/-/blogs/how-to-create-an-infinite-scroll-natively-with-liferay
+  See my post here :  https://liferay.dev/blogs/-/blogs/real-case-fragment-usage-1
